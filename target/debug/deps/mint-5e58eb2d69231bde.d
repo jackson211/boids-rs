@@ -1,0 +1,9 @@
+/Users/jackson/Documents/code/playground/rust-playground/bevy_playground/boids-rs/target/debug/deps/mint-5e58eb2d69231bde.rmeta: /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/lib.rs /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/into_mint.rs /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/matrix.rs /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/rotation.rs /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/vector.rs
+
+/Users/jackson/Documents/code/playground/rust-playground/bevy_playground/boids-rs/target/debug/deps/mint-5e58eb2d69231bde.d: /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/lib.rs /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/into_mint.rs /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/matrix.rs /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/rotation.rs /Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/vector.rs
+
+/Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/lib.rs:
+/Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/into_mint.rs:
+/Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/matrix.rs:
+/Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/rotation.rs:
+/Users/jackson/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/mint-0.5.9/src/vector.rs:

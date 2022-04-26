@@ -1,0 +1,10 @@
+/Users/jackson/Documents/code/playground/rust-playground/bevy_playground/boids-rs/target/debug/deps/bevy_audio-8b489fb1e2adcfd7.rmeta: /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/lib.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio_output.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio_source.rs
+
+/Users/jackson/Documents/code/playground/rust-playground/bevy_playground/boids-rs/target/debug/deps/libbevy_audio-8b489fb1e2adcfd7.rlib: /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/lib.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio_output.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio_source.rs
+
+/Users/jackson/Documents/code/playground/rust-playground/bevy_playground/boids-rs/target/debug/deps/bevy_audio-8b489fb1e2adcfd7.d: /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/lib.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio_output.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio_source.rs
+
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/lib.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio_output.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_audio-0.7.0/src/audio_source.rs:

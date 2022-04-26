@@ -1,0 +1,11 @@
+/Users/jackson/Documents/code/playground/rust-playground/bevy_playground/boids-rs/target/debug/deps/notify-e3db63ce55f3eaf0.rmeta: /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/lib.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/fsevent.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/event.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/null.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/poll.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/config.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/error.rs
+
+/Users/jackson/Documents/code/playground/rust-playground/bevy_playground/boids-rs/target/debug/deps/notify-e3db63ce55f3eaf0.d: /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/lib.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/fsevent.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/event.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/null.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/poll.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/config.rs /Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/error.rs
+
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/lib.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/fsevent.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/event.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/null.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/poll.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/config.rs:
+/Users/jackson/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-5.0.0-pre.11/src/error.rs:
