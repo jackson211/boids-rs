@@ -39,6 +39,7 @@ pub fn run(mut commands: Commands, game_state: ResMut<GameState>) {
     }
 }
 
+// Boids movement
 pub fn boid_movement(
     mut boids_position: Query<(&mut Boid, &mut Transform)>,
     game_state: ResMut<GameState>,
@@ -49,6 +50,6 @@ pub fn boid_movement(
         let pos = boid.position();
         transform.translation.x = pos.x;
         transform.translation.y = pos.y;
-        transform.rotate(Quat::from_rotation_z(-boid.angle()));
+        // transform.rotate(Quat::from_rotation_z(-boid.angle()));
     }
 }

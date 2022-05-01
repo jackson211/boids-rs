@@ -1,6 +1,7 @@
 use crate::components::Boid;
 use bevy::prelude::Component;
 use core::ops::{Deref, DerefMut};
+use rand::prelude::*;
 
 #[derive(Debug, Clone, PartialEq, Component)]
 pub struct Flock {
@@ -8,10 +9,14 @@ pub struct Flock {
 }
 
 impl Flock {
-    pub fn new(n: usize) -> Self {
+    pub fn new(n: usize, width: f32, height: f32) -> Self {
         let mut boids = Vec::new();
+        let mut rng = rand::thread_rng();
         for _ in 0..n {
-            boids.push(Boid::new(0., 0.));
+            boids.push(Boid::new(
+                rng.gen_range(0f32..width),
+                rng.gen_range(0f32..height),
+            ));
         }
         Self { boids }
     }
