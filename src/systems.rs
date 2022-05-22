@@ -1,5 +1,6 @@
 use crate::boid::Boid;
 use crate::flock::Flock;
+use bevy::core::FixedTimestep;
 use bevy::prelude::*;
 use bevy_prototype_lyon::prelude::*;
 
@@ -7,15 +8,19 @@ pub struct GameState {
     pub flock: Flock,
 }
 
-pub fn run(mut commands: Commands, game_state: ResMut<GameState>) {
+pub struct BoidPlugin;
+
+impl Plugin for BoidPlugin {
+    fn build(&self, app: &mut App) {
+        app.add_system(boids_spawn_system);
+    }
+}
+
+pub fn boids_spawn_system(mut commands: Commands, game_state: ResMut<GameState>) {
     let boids = game_state.flock.boids();
 
     let triangle = shapes::Polygon {
-        points: vec![
-            Vec2::new(0.0, 0.0),
-            Vec2::new(0.0, 10.0),
-            Vec2::new(25., 5.),
-        ],
+        points: vec![Vec2::new(0.0, 0.0), Vec2::new(0.0, 5.0), Vec2::new(25., 5.)],
         closed: true,
     };
 
@@ -23,14 +28,14 @@ pub fn run(mut commands: Commands, game_state: ResMut<GameState>) {
     for i in 0..boids.len() {
         let boid = boids[i];
         let pos = boid.position();
-        let mut transform = Transform::from_translation(Vec3::new(pos.x, pos.y, 0.));
-        transform.rotate(Quat::from_rotation_z(-boid.angle()));
+        let transform = Transform::from_translation(Vec3::new(pos.x, pos.y, 0.));
+        // transform.rotate(Quat::from_rotation_z(-boid.angle()));
         commands
             .spawn_bundle(GeometryBuilder::build_as(
                 &triangle,
                 DrawMode::Outlined {
                     fill_mode: FillMode::color(Color::WHITE),
-                    outline_mode: StrokeMode::new(Color::WHITE, 2.),
+                    outline_mode: StrokeMode::new(Color::WHITE, 1.),
                 },
                 transform,
             ))
