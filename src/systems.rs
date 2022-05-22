@@ -1,6 +1,5 @@
-use crate::components::*;
-use crate::resources::*;
-
+use crate::boid::Boid;
+use crate::flock::Flock;
 use bevy::prelude::*;
 use bevy_prototype_lyon::prelude::*;
 
@@ -31,7 +30,7 @@ pub fn run(mut commands: Commands, game_state: ResMut<GameState>) {
                 &triangle,
                 DrawMode::Outlined {
                     fill_mode: FillMode::color(Color::WHITE),
-                    outline_mode: StrokeMode::new(Color::BLACK, 2.),
+                    outline_mode: StrokeMode::new(Color::WHITE, 2.),
                 },
                 transform,
             ))
@@ -50,6 +49,6 @@ pub fn boid_movement(
         let pos = boid.position();
         transform.translation.x = pos.x;
         transform.translation.y = pos.y;
-        // transform.rotate(Quat::from_rotation_z(-boid.angle()));
+        transform.rotate(Quat::from_rotation_z(-boid.angle()));
     }
 }

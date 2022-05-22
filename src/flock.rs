@@ -1,4 +1,4 @@
-use crate::components::Boid;
+use crate::boid::Boid;
 use bevy::prelude::Component;
 use core::ops::{Deref, DerefMut};
 use rand::prelude::*;
@@ -27,12 +27,6 @@ impl Flock {
 
     pub fn len(&self) -> usize {
         self.boids.len()
-    }
-
-    pub fn run(&self) {
-        for boid in self.boids.clone().iter_mut() {
-            boid.run(self.boids.clone());
-        }
     }
 }
 

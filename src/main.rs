@@ -1,17 +1,17 @@
-mod components;
-mod resources;
+mod boid;
+mod flock;
 mod systems;
 
 use bevy::prelude::*;
 use bevy_prototype_lyon::prelude::ShapePlugin;
-use resources::*;
+use flock::*;
 use systems::*;
 
-const N_BOIDS: usize = 1000;
+const N_BOIDS: usize = 10;
 
 fn main() {
     App::new()
-        .insert_resource(Msaa { samples: 4 })
+        // .insert_resource(Msaa { samples: 4 })
         .insert_resource(GameState {
             flock: Flock::new(N_BOIDS, 100., 100.),
         })

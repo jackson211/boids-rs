@@ -15,7 +15,7 @@ pub struct Boid {
 
 impl Boid {
     pub fn new(x: f32, y: f32) -> Boid {
-        let angle: f32 = 2. * std::f32::consts::PI * rand::random::<f32>();
+        let angle: f32 = 1. * std::f32::consts::PI * rand::random::<f32>();
         Self {
             position: Vec2::new(x, y),
             velocity: Vec2::new(f32::cos(angle), f32::sin(angle)),
